@@ -1,0 +1,48 @@
+
+.description{
+    display: flex;
+}
+
+.box:last-child{
+    margin-left: 40px;
+}
+
+.img{
+    height: 300px;
+}
+
+.contact h2{
+    text-align: center;
+}
+
+.form-row .form-fields {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    width: calc(50% - 13px);
+}
+.form-row .form-fields:first-child{
+    margin-right: 20px;
+}
+.form-row .form-fields:last-child{
+    width: 100%;
+}
+
+.form-row .form-fields label{
+    display: block;
+}
+
+.form-row .form-fields input, 
+.form-row .form-fields textarea{
+    width: 100%;
+    padding: 7px 0;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: transparent;
+    outline: none;
+}
+
+.form-row .form-fields input{
+    max-width: 100%;
+} 
+    

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body{
+    margin:0;
+    padding: 0 20px;
+    background-color: #fefefe;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.conteiner{
+    margin: 15px auto;
+    max-width: 1000px;
+    min-width: 720px;
+    
+}
+
+.shadow{
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.rounded{
+    border-radius: 15px;
+}
+
+.form-fields{
+    padding-bottom: 10px;
+}
+
+
+.card{
+    border: 1px solid #eee;
+    padding: 0 20px 20px;
+    margin: 15px 0;
+}
+
+.expirience{
+    background-color: rgb(252, 250, 226);
+}
+
+.hobbies{
+    background-color: #e4ffe4;
+}
+
+.contact{
+    background-color: #ffe5e5;
+}
+
+.btn{
+    background-color: #000;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    color: #eee;
+    text-decoration: none;
+    border-radius: 10px;
+    font: inherit;
+    font-weight: bold;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.7);
+}
+
+.btn:hover{
+    /* opacity: .7; */
+    box-shadow: none;
+    color: #ff7f50;
+    cursor: pointer;
+}
+
+.btn:visited{
+    color: red;
+}

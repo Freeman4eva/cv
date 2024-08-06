@@ -1,0 +1,48 @@
+.social-liks{
+    margin: 20px 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}   
+
+.social-liks li{
+    padding-right: 20px;
+}
+
+.table{
+    width: 100%;
+    padding: 0;
+    margin: 0 0 10px;
+    border-spacing: 0;
+    border: 2px solid #333;
+}   
+
+.table th{
+    padding: 7px 5px;
+    text-align: left;
+    letter-spacing: .2em;
+    color: black;
+    border-bottom: 4px solid #333;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+}
+
+.table td{
+    padding: 5px;
+}
+
+.table thead tr, 
+.table tbody tr:nth-child(even){
+    background-color: lightslategray;
+    color: aliceblue;
+}
+
+.hobbies-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.hobbies-list li{
+    margin-bottom: 7px;
+    border-bottom: 1px solid #333;
+}
